@@ -1,0 +1,2 @@
+I was working with Card component, HomeCard components which helped me to learn to work with connecting components and learned how individual components can be re-used.
+Added a HomeCards component and rendered it in the App.jsx.
