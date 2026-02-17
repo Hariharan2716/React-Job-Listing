@@ -59,3 +59,6 @@ To get the experience learning of backend I picked Json-server which is a MOCK A
 
 ### Use Effect
 Use Effect allows our components to have side effects. wanted a effect of fetching data when the component renders
+
+### Proxy
+In vite.config.js file add the proxy object with target, changeOrigin, and rewrite the path with carrot.
