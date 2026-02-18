@@ -62,3 +62,16 @@ Use Effect allows our components to have side effects. wanted a effect of fetchi
 
 ### Proxy
 In vite.config.js file add the proxy object with target, changeOrigin, and rewrite the path with carrot.
+Proxy a person, document... authorized to act on behalf of another, serving as a substitute or representative.
+
+### Reflect
+I was working with a faulty api url The bug is tiny but deadly 
+`/api/jobs?_limit= 3`
+I added a space before 3 in the query string. => so the request actually became ...limit= 3 That space gets URL-encoded to %20 the backend recives:  url as **_limit=%203**.
+Where API tries to parse " 3" not 3. 
+Depending on the backend, they can ignore the limit or return wrong data or break the request completely.
+
+**This is a classic bug. One invisible space - > broken API call**
+
+### Single Jobs Page
+To create a page that describes how a single job details would look like.
