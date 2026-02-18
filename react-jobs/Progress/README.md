@@ -50,3 +50,15 @@ Added Active navbar with the link tags when to differentiate the link tag.
 From Link to NavLink this navlink acts the similar way but it adds a class to the active link.
 
 Now to make the links responsive we use a function called isActive if it is true the className would have a black baground else transparent.
+
+### Conditional Rendering
+Worked with JobListings component to render on condition if it is Home page I wanted to display only 3 job cards but when in jobs page wanted to display all jobs so used if else, ternary operation.
+
+### Json Server
+To get the experience learning of backend I picked Json-server which is a MOCK API helps to get the understanding of fetching data from a database.
+
+### Use Effect
+Use Effect allows our components to have side effects. wanted a effect of fetching data when the component renders
+
+### Proxy
+In vite.config.js file add the proxy object with target, changeOrigin, and rewrite the path with carrot.
