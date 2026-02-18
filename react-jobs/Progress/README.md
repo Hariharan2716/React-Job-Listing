@@ -75,3 +75,10 @@ Depending on the backend, they can ignore the limit or return wrong data or brea
 
 ### Single Jobs Page
 To create a page that describes how a single job details would look like.
+
+### Add Job pass function as a property
+Created a page component to add job and passing a function as a property to the function AddJobPage arrow function.
+Once the addJobSubmit function is triggered it redirects to the add-job page adding the submited form as a new joblisting.
+For that use Hook - navigate hook from react router dom, initialize before its use.
+
+addJobSubmit is passed as a property so in App component call the prop in the component AddJobPage
