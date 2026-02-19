@@ -85,3 +85,9 @@ addJobSubmit is passed as a property so in App component call the prop in the co
 
 ### Delete Job
 In the JobList page use the button Delete and use onClick and add a function onDeleteClick with job id and when it is clicked it redirects to the JobPage component calling the prop delete job with a async function which is defined in the App.jsx. and in the JobPage confirm the delete function with a window confirm message and when they confirm it the delete function is triggerd and the job is deleted.
+
+### React Toastify
+This is a react package that helps to show the Toast messages, first import the toast in MainLayout because in Route this is the parent so when ever a event is happening it is passed to the mainlayout.
+
+Import toast from react-toastify in JobPage and AddJobPage as well this can return success or error toast.
+
