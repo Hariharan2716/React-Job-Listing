@@ -81,4 +81,7 @@ Created a page component to add job and passing a function as a property to the 
 Once the addJobSubmit function is triggered it redirects to the add-job page adding the submited form as a new joblisting.
 For that use Hook - navigate hook from react router dom, initialize before its use.
 
-addJobSubmit is passed as a property so in App component call the prop in the component AddJobPage
+addJobSubmit is passed as a property so in App component call the prop in the component AddJobPage.
+
+### Delete Job
+In the JobList page use the button Delete and use onClick and add a function onDeleteClick with job id and when it is clicked it redirects to the JobPage component calling the prop delete job with a async function which is defined in the App.jsx. and in the JobPage confirm the delete function with a window confirm message and when they confirm it the delete function is triggerd and the job is deleted.
